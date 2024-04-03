@@ -1,5 +1,3 @@
-```markdown
-```
 # LangGraph Research Agents
 
 This is a Streamlit app that demonstrates the use of LangGraph Research Agents, which utilize OpenAI's GPT-4 model and various tools to perform tasks such as internet searches and content processing.
@@ -21,10 +19,14 @@ pip install -r requirements.txt
 ```
 
 3. Set up your environment variables:
+  
+1. Create a `.env` file in the project directory.
 
-```bash
-export OPENAI_API_KEY=your_openai_api_key
-```
+2. Add your OPEN API key to the `.env` file:
+
+   ```
+   OPENAI_API_KEY=your_openai_api_key
+   ```
 
 4. Run the Streamlit app:
 
