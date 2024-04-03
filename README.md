@@ -20,9 +20,9 @@ pip install -r requirements.txt
 
 3. Set up your environment variables:
   
-1. Create a `.env` file in the project directory.
+   Create a `.env` file in the project directory.
 
-2. Add your OPEN API key to the `.env` file:
+   Add your OPEN API key to the `.env` file:
 
    ```
    OPENAI_API_KEY=your_openai_api_key
